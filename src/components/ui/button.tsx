@@ -15,7 +15,7 @@ const buttonVariants = cva(
         outline:
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         searchNav:
-          "ml-3 border border-input bg-background hover:bg-accent font-normal ",
+          "ml-3 border border-input bg-background hover:bg-accent font-normal transition-colors text-muted-foreground ",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
@@ -26,7 +26,7 @@ const buttonVariants = cva(
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
-        iconGithub: "h-10 w-10 mr-3",
+        iconNavbar: "h-10 w-10 mr-3",
         searchNav: "h-8 px-4",
       },
     },
