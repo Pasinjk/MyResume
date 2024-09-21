@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import BasicInfo from "@/views/basicInfo";
 
-function page() {
+const Page = () => {
   return (
-    <div className=''>hello world</div>
-  )
-}
+    <div className="px-60">
+      <BasicInfo />
+    </div>
+  );
+};
 
-export default page
+export default Page;
